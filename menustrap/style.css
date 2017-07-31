@@ -1,0 +1,69 @@
+body{
+    height: 1000px;
+}
+.section1 {
+    height: 200px;
+    margin: auto;
+    width: 80vw;
+    justify-content: space-between;
+    flex-flow: column wrap;
+}
+
+a {
+    text-decoration: none;
+    margin:auto;
+    font-size: 20px;
+}
+
+i {
+    color: white
+}
+
+.navigation {
+    height: 90px;
+    align-self: flex-end;
+    background: hsl(0, 0%, 9%);
+    width:80vw;
+    margin: auto;
+}
+.logo img{
+    height:240px;
+    width: 250px;
+}
+.logo{
+    margin-bottom: 10px;
+    background: hsl(0, 0%, 9%);
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    color:black;
+}
+.carousel {
+    height: 40%;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
